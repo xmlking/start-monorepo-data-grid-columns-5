@@ -10,6 +10,14 @@
     "cssVariables": true
   },
   "iconLibrary": "lucide",
+  "registries": {
+    "@reui": {
+      "url": "https://reui.io/r/base-nova/{name}.json",
+      "headers": {
+        "Authorization": "Bearer ${REUI_LICENSE_KEY}"
+      }
+    }
+  },
   "aliases": {
     "components": "@/components",
     "hooks": "@/hooks",
