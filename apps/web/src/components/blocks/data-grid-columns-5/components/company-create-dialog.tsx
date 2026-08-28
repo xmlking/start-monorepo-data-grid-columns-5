@@ -1,5 +1,5 @@
 import { useState, type FormEvent } from "react"
-import { Badge } from "@/components/reui/badge"
+import { Badge } from "@workspace/ui/components/reui/badge"
 
 import { Button } from "@workspace/ui/components/button"
 import {

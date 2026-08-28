@@ -5,13 +5,13 @@
 "use no memo"
 
 import { type ReactNode } from "react"
-import { Badge, type BadgeProps } from "@/components/reui/badge"
-import { type DataGridFeatures } from "@/components/reui/data-grid/data-grid"
-import { DataGridColumnHeader } from "@/components/reui/data-grid/data-grid-column-header"
+import { Badge, type BadgeProps } from "@workspace/ui/components/reui/badge"
+import { type DataGridFeatures } from "@workspace/ui/components/reui/data-grid/data-grid"
+import { DataGridColumnHeader } from "@workspace/ui/components/reui/data-grid/data-grid-column-header"
 import {
   DataGridTableRowSelect,
   DataGridTableRowSelectAll,
-} from "@/components/reui/data-grid/data-grid-table"
+} from "@workspace/ui/components/reui/data-grid/data-grid-table"
 import { type ColumnDef } from "@tanstack/react-table"
 
 import { cn } from "@workspace/ui/lib/utils"

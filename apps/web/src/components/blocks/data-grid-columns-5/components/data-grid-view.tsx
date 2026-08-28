@@ -8,22 +8,22 @@ import { useCallback, useMemo, useRef, useState, type ReactNode } from "react"
 import {
   DataGrid,
   dataGridFeatures,
-} from "@/components/reui/data-grid/data-grid"
-import { DataGridPagination } from "@/components/reui/data-grid/data-grid-pagination"
-import { DataGridScrollArea } from "@/components/reui/data-grid/data-grid-scroll-area"
-import { DataGridTable } from "@/components/reui/data-grid/data-grid-table"
-import { Filters } from "@/components/reui/filters/filters"
+} from "@workspace/ui/components/reui/data-grid/data-grid"
+import { DataGridPagination } from "@workspace/ui/components/reui/data-grid/data-grid-pagination"
+import { DataGridScrollArea } from "@workspace/ui/components/reui/data-grid/data-grid-scroll-area"
+import { DataGridTable } from "@workspace/ui/components/reui/data-grid/data-grid-table"
+import { Filters } from "@workspace/ui/components/reui/filters/filters"
 import {
   createFilterQuery,
   createFilterRule,
   flattenFilterConditions,
   isFilterRule,
   type FilterCondition,
-} from "@/components/reui/filters/filters-query"
+} from "@workspace/ui/components/reui/filters/filters-query"
 import type {
   FilterField,
   FilterQuery,
-} from "@/components/reui/filters/filters-types"
+} from "@workspace/ui/components/reui/filters/filters-types"
 import {
   Frame,
   FrameDescription,
@@ -31,7 +31,7 @@ import {
   FrameHeader,
   FramePanel,
   FrameTitle,
-} from "@/components/reui/frame"
+} from "@workspace/ui/components/reui/frame"
 import {
   useTable,
   type ColumnOrderState,

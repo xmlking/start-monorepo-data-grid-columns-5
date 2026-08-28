@@ -5,7 +5,7 @@ import {
   type FormEvent,
   type ReactNode,
 } from "react"
-import { Badge } from "@/components/reui/badge"
+import { Badge } from "@workspace/ui/components/reui/badge"
 
 import { cn } from "@workspace/ui/lib/utils"
 import {
