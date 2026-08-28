@@ -5,7 +5,8 @@ This is a TanStack Start monorepo template with shadcn/ui.
 ## Start
 
 ```bash
-bun --filter web dev   
+turbo run web#dev
+turbo run web#build 
 ```
 
 ## Adding components
